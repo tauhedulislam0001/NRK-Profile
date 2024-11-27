@@ -1,0 +1,178 @@
+/*=============================================
+=     Default Css                 =
+=============================================*/
+body{
+    font-family: "Montserrat", sans-serif !important;
+    height: 100%;
+    margin: 0;
+}
+a{
+    text-decoration: none !important;
+}
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.content-wrapper {
+    flex: 1;
+}
+.hover-animation-img-wrap:hover img {
+    transition: .5s !important;
+    transform: scale(1.2) !important;
+}
+.hover-animation-img-wrap img.card-img-top {
+    transform: scale(1);
+    transition: .5s;
+}
+/* ========= END =============== */
+
+
+/*=============================================
+=     Swiper slider default Css                 =
+=============================================*/
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+/* ========= END =============== */
+
+
+/*=============================================
+=     Header Css                 =
+=============================================*/
+.header-wrapper {
+    background-color: #f2f2f2; /* Light gray background */
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 500;
+    padding: 18px 16px !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.navbar-nav .nav-link:hover {
+    color: #333;
+}
+.icon-btn {
+    background-color: #fff;
+    border: none;
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+}
+.icon-btn:hover {
+    background-color: #f1f1f1;
+}
+.active .nav-link{
+    color: #333; /* Bootstrap's primary color */
+}
+.active .nav-link:before{
+   width: 100%;
+   left: 0;
+}
+.navigation-menu > ul > li > a:before {
+    content: '';
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    background-color: #333;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation-menu > ul > li:hover > a:before, 
+.navigation-menu > ul > li.active > a:before {
+    width: 100%;
+    left: 0;
+}
+/* ========= END =============== */
+
+
+
+
+/*=============================================
+=     Banner Css                 =
+=============================================*/
+.single-banner-layout{
+    position: relative;
+    cursor: pointer;
+}
+.sbl-image img{
+    height: 750px !important;
+}
+.sbl-text h2 {
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #333;
+}
+
+.sbl-image-text {
+    width: 100% !important;
+    max-width: 400px !important;
+    padding: 0 15px;
+    max-height: 750px;
+    overflow: auto;
+}
+.sbl-image-text h2 {
+    font-size: 24px !important;
+    color: #333;
+    text-decoration: none !important;
+    border: none !important;
+}
+/* ========= END =============== */
+
+
+/*=============================================
+=     Footer Css                 =
+=============================================*/
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ========= END =============== */
+
+
+.contact-details p {
+    font-size: 16px;
+    line-height: 160%;
+    font-weight: 500;
+}
+
+
+
+/*=============================================
+=     Default Css                 =
+=============================================*/
+
+/* ========= END =============== */
