@@ -6,7 +6,7 @@
             <div class="col-md-6">
                 <div class="contact-inner-text-wrap">
                     <div class="section-header ">
-                        <h2>Contact</h2>
+                        <h2>Contact Us</h2>
                     </div>
                     <div class="section-content contact-details mt-4">
                         <p>

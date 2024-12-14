@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <!-- Mobile Specific Meta  -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Iwan  Baan Photography</title>
+    <title>NRK Imagine</title>
     <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

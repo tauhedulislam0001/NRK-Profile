@@ -12,7 +12,7 @@
                                 <a href="{{route('blogDetails')}}" class="w-100" >
                                     <div class="single-banner-layout w-100">
                                         <div class="sbl-image">
-                                            <img src="{{ asset('assets/images/banner/yasmin_mtn_default.jpg')}}" alt="" width="100%" height="auto">
+                                            <img src="{{ asset('assets/images/banner/yasmin_mtn_default.jpg')}}" alt="" width="100%" height="auto" />
                                         </div>
                                         <div class="sbl-text mt-3">
                                             <h2>Upstate House – Christian Wassmann</h2>
