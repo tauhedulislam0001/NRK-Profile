@@ -1,10 +1,10 @@
 <Header class="header-wrapper">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <nav class="navbar navbar-expand-lg navbar-light navbar-custom py-2 py-lg-0">
                     <!-- Brand/Logo -->
-                    <a class="navbar-brand" href="{{ route('home.index') }}">NRK Imagine</a>
+                    <a class="navbar-brand text-white" href="{{ route('home.index') }}">NRK Imagine</a>
 
                     <!-- Offcanvas Toggle Button -->
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">

@@ -59,7 +59,16 @@ a{
 =     Header Css                 =
 =============================================*/
 .header-wrapper {
-    background-color: #f2f2f2; /* Light gray background */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    display: flex;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    transition: 0.7s cubic-bezier(0.4, 0, 0, 1);
+    border-bottom: 1px solid rgb(184, 184, 184);
 }
 .navbar-brand {
     font-weight: bold;
@@ -67,7 +76,7 @@ a{
 }
 .navbar-nav .nav-link {
     font-size: 1rem;
-    color: #333;
+    color: #fff;
     font-weight: 500;
     padding: 18px 16px !important;
     -webkit-transition: all 0.3s ease-in-out;
@@ -75,17 +84,18 @@ a{
     transition: all 0.3s ease-in-out;
 }
 .navbar-nav .nav-link:hover {
-    color: #333;
+    color: #fff;
 }
 .icon-btn {
-    background-color: #fff;
+    /* background-color: #fff; */
     border: none;
     margin-left: 0.5rem;
     font-size: 1.2rem;
+    color: #fff;
 }
-.icon-btn:hover {
+/* .icon-btn:hover {
     background-color: #f1f1f1;
-}
+} */
 .active .nav-link{
     color: #333; /* Bootstrap's primary color */
 }
@@ -100,7 +110,7 @@ a{
     bottom: 0;
     position: absolute;
     left: 0;
-    background-color: #333;
+    background-color: #fff;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;

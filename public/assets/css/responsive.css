@@ -1,0 +1,8 @@
+@media screen and (max-width: 767px) {
+    .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-nav .nav-link {
+        color: #000 !important;
+    }
+}
